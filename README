@@ -1,4 +1,4 @@
-Basket Case is a minimalist Drupal install profile. 
+Basket Case is a minimalist Drupal install profile. Part of the fruit basket.
 Included are make files to fetch the required modules.
 Also there are (or rather will be, only one atm) installprofiles included. 
 These activate module and do some basic tuning.
@@ -9,3 +9,5 @@ build-mandje.make  START HERE ;-)
 
 usage for quickstart:
 drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=commerce_kickstart
+
+Easy Peasy!
