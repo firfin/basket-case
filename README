@@ -1,0 +1,11 @@
+Basket Case is a minimalist Drupal install profile. 
+Included are make files to fetch the required modules.
+Also there are (or rather will be, only one atm) installprofiles included. 
+These activate module and do some basic tuning.
+This installprofile will be the baseline drupal install for Wicked Fruit
+This will then be extended with various 'features'.
+
+build-mandje.make  START HERE ;-)
+
+usage for quickstart:
+drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=commerce_kickstart
