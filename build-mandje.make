@@ -25,8 +25,12 @@ projects[drupal][type] = core
 ;includes[] = mandje.make
 
 ; Add Commerce Kickstart to the full distribution build.
-;projects[commerce_kickstart][type] = profile
+projects[mandje][type] = profile
+projects[mandje][download][type] = git
+projects[mandje][download][url] = git://github.com/firfin/basket-case.git
+;git@github.com:firfin/basket-case.git
+
+
 ;projects[commerce_kickstart][version] = 1.x-dev
-;projects[commerce_kickstart][download][type] = git
 ;projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
 ;projects[commerce_kickstart][download][branch] = 7.x-1.x
