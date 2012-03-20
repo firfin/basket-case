@@ -7,7 +7,7 @@
 
 function mandje_install() {
   include_once DRUPAL_ROOT . '/profiles/mandje/mandje.install';
-  mandje_install();
+ // mandje_install();
 }
 
 

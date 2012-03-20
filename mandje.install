@@ -3,7 +3,7 @@
 /**
  * @file
  * Performs a standard Drupal installation with additional configuration of the
- * Drupal Commerce modules and components.
+ * base features setup.
  */
 
 // Define some Mandje specific components.
@@ -15,7 +15,7 @@ define('MANDJE_ADMIN_THEME', 'seven');
  *
  * Perform actions to set up the site for this profile.
  */
-function commerce_kickstart_install() {
+function mandje_install() {
  
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', MANDJE_DEFAULT_THEME);
