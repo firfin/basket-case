@@ -5,12 +5,10 @@
 * Perform actions to set up the site for this profile.
 */
 
-function mandje_install() {
-  include_once DRUPAL_ROOT . '/profiles/mandje/mandje.install';
- // mandje_install();
-}
-
-
+//function mandje_install() {
+ // include_once DRUPAL_ROOT . '/profiles/mandje/mandje.install';
+//}
+# mandje_install();
 /**
  * Implements hook_install_tasks().
  */
@@ -24,4 +22,5 @@ function mandje_install() {
   );
 
   return $tasks;
-}*/
+} 
+ */

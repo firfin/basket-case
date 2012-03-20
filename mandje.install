@@ -15,6 +15,7 @@ define('MANDJE_ADMIN_THEME', 'seven');
  *
  * Perform actions to set up the site for this profile.
  */
+ 
 function mandje_install() {
  
   // Enable some standard blocks.
