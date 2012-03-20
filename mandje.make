@@ -57,9 +57,9 @@ libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jque
 
 ; Add Commerce Kickstart to the full distribution build.
 ;projects[openpublic][version] = 1.0-beta4
-projects[openpublic][download][type] = git
+;projects[openpublic][download][type] = git
 ;projects[openpublic][download][branch] = 7.x-1.0.4
-projects[openpublic][download][url] = /home/quickstart/websites/mandje
+;projects[openpublic][download][url] = /home/quickstart/websites/mandje
 
 ;projects[commerce_kickstart][type] = profile
 ;projects[commerce_kickstart][version] = 1.x-dev

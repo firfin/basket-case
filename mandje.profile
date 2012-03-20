@@ -6,7 +6,7 @@
 */
 
 function mandje_install() {
-  include_once '/mandje.install';
+  include_once './mandje.install';
   mandje_install();
 }
 
