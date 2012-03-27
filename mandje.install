@@ -7,7 +7,7 @@
  */
 
 // Define some Mandje specific components.
-define('MANDJE_DEFAULT_THEME', 'bartik');
+define('MANDJE_DEFAULT_THEME', 'mothership');
 define('MANDJE_ADMIN_THEME', 'seven');
 
 /**
