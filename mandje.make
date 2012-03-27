@@ -32,15 +32,17 @@ projects[features][type] = "module"
 projects[field_group][type] = "module"
 projects[imce][type] = "module"
 projects[boxes][type] = "module"
-projects[diff][type] = "module"
 projects[pathauto][type] = "module"
-projects[strongarm][type] = "module"
 projects[token][type] = "module"
 projects[ckeditor][type] = "module"
 projects[views][type] = "module"
 projects[webform][type] = "module"
 
-  
+; Modules for Features
+projects[strongarm][type] = "module"
+projects[features][type] = "module"
+projects[diff][type] = "module"
+
 
 ; Themes
 ; --------

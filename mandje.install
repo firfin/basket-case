@@ -124,6 +124,4 @@ function mandje_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
-
-
 }

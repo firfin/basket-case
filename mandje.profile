@@ -1,26 +1,10 @@
 <?php
 /**
-* Implement hook_install().
-*
-* Perform actions to set up the site for this profile.
-*/
-
-//function mandje_install() {
- // include_once DRUPAL_ROOT . '/profiles/mandje/mandje.install';
-//}
-# mandje_install();
-/**
- * Implements hook_install_tasks().
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Allows the profile to alter the site configuration form.
  */
-/**function mandje_install_tasks() {
-  $tasks = array();
-
-  // Add a page allowing the user to indicate they'd like to install demo content.
-  $tasks['commerce_kickstart_example_store_form'] = array(
-    'display_name' => st('Example store'),
-    'type' => 'form',
-  );
-
-  return $tasks;
-} 
- */
+function mandje_form_install_configure_form_alter(&$form, $form_state) {
+  // Pre-populate the site name with the server name.
+  $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
+}

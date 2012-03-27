@@ -31,6 +31,8 @@ dependencies[] = rdf
 ; Install necessary core modules.
 dependencies[] = token
 dependencies[] = features
+dependencies[] = diff
+dependencies[] = strongarm
 
 
 files[] = mandje.profile
