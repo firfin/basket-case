@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-; include so shoudl not include core ;projects[drupal][type] = core
+; include so should not include core ;projects[drupal][type] = core
 
   
 ; Modules
