@@ -46,7 +46,7 @@ projects[diff][type] = "module"
 
 ; Themes
 ; --------
-;projects[mothership][type] = "theme"
+projects[mothership][type] = "theme"
 
   
   
