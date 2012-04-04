@@ -8,7 +8,7 @@ This will then be extended with various 'features'.
 build-mandje.make  START HERE ;-)
 
 usage for quickstart:
-drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=commerce_kickstart
+drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=mandje
 
 Easy Peasy!
 

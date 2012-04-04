@@ -33,6 +33,8 @@ dependencies[] = token
 dependencies[] = features
 dependencies[] = diff
 dependencies[] = strongarm
+dependencies[] = ckeditor
+dependencies[] = imce
 
 
 files[] = mandje.profile
