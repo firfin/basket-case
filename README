@@ -11,3 +11,7 @@ usage for quickstart:
 drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=commerce_kickstart
 
 Easy Peasy!
+
+git status
+git commit -a
+git push
