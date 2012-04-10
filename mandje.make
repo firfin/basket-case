@@ -25,8 +25,9 @@ api = 2
   
 ; Modules
 ; --------
-projects[ctools][type] = "module"
+projects[ckeditor][type] = "module"
 projects[context][type] = "module"
+projects[ctools][type] = "module"
 projects[ds][type] = "module"
 projects[features][type] = "module"
 projects[field_group][type] = "module"
@@ -34,7 +35,6 @@ projects[imce][type] = "module"
 projects[boxes][type] = "module"
 projects[pathauto][type] = "module"
 projects[token][type] = "module"
-projects[ckeditor][type] = "module"
 projects[views][type] = "module"
 projects[webform][type] = "module"
 
@@ -46,7 +46,7 @@ projects[diff][type] = "module"
 
 ; Themes
 ; --------
-projects[mothership][type] = "theme"
+;projects[mothership][type] = "theme"
 
   
   
@@ -58,7 +58,7 @@ libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
-;libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][directory_name] = "ckeditor"
 
 
 ; Add Commerce Kickstart to the full distribution build.

@@ -10,7 +10,10 @@ build-mandje.make  START HERE ;-)
 usage for quickstart:
 drush qc --domain=somedomain.lan --makefile=build-mandje.make --profile=mandje
 
+It is also possible to set the admin password by appending  --account-pass=yourpassword
+
 Easy Peasy!
+
 
 git status
 git commit -a
