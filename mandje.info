@@ -28,7 +28,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-; Install necessary core modules.
+; Install modules necessary for features.
 dependencies[] = token
 dependencies[] = features
 dependencies[] = diff
